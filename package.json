@@ -1,0 +1,13 @@
+{
+  "name": "provision-tech-toolbox",
+  "version": "1.0.0",
+  "description": "Foundational agentic scaffolding for localized edge-compute infrastructure.",
+  "type": "module",
+  "scripts": {
+    "audit": "tsx toolbox/tools/ledger/ledger-bridge.tool.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
